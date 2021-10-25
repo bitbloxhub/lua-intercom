@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lua-intercom"
+version = "0.1.0"
+description = ""
+authors = ["bitbloxhub <45184892+bitbloxhub@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lupa = "^1.10"
+sanic = "^21.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
